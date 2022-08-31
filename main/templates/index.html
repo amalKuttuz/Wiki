@@ -42,39 +42,39 @@
         </div>
         <div class='three'>
         <h1>Wikipedia Search</h1>
-    <form method="post">
+    <form method="post" action="out">
         {% csrf_token %}
         <input type="text" name="search">
         <button type="submit">Search</button>
     </form>
 </div>
         
-    
-<div class='one'> 
-   
+<!--    -->
+<!--<div class='one'> -->
+<!--   -->
 
-<!--            {{title}}-->
-          
-            <div class="card-body">
-                <h2 class="card-title" align='center'>Title  </h2>
-                </div>
-                <p align='left'> 
-              {% if result %}
-              {{result}}
-              {% endif %}
-                </p>
-              <div class="space">
-                 </div>
-              <a href="#" class="btn btn-primary" align='center'>View More</a>
+<!--&lt;!&ndash;            {{title}}&ndash;&gt;-->
+<!--          -->
+<!--            <div class="card-body">-->
+<!--                <h2 class="card-title" align='center'>Title  </h2>-->
+<!--                </div>-->
+<!--                <p align='left'> -->
+<!--              {% if result %}-->
+<!--              {{result}}-->
+<!--              {% endif %}-->
+<!--                </p>-->
+<!--              <div class="space">-->
+<!--                 </div>-->
+<!--              <a href="#" class="btn btn-primary" align='center'>View More</a>-->
 
-          
-           
+<!--          -->
+<!--           -->
 
-          
+<!--          -->
           
               </div>
-            </p>
+
         </div>
-      {% comment %} </div> {% endcomment %}
-    </div>
+
+
 </body>
